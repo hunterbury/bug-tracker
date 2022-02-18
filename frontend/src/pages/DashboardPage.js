@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DashboardPage = () => {
+const DeveloperPage = () => {
 
     return (
         <div className='dashboard'>
@@ -194,4 +194,4 @@ const DashboardPage = () => {
     )    
 }
 
-export default DashboardPage
+export default DeveloperPage

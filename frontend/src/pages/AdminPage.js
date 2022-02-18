@@ -1,10 +1,18 @@
-import React from 'react'
+import React from 'react';
+import CreateTicket from './components/CreateTicket';
+import EditTicket from '../components/EditTicket';
+import TicketList from '../components/TicketList';
+import Menu from '../components/Menu';
 
 const AdminPage = () => {
 
     return (
         <div className="admin">
             <h1>Admin Dashboard</h1>
+            <Menu />
+            <TicketList />
+            <CreateTicket />
+            <EditTicket />
         </div>
         //     <div id="layoutSidenav">
         //         <div id="layoutSidenav_nav">
@@ -206,6 +214,6 @@ const AdminPage = () => {
         //         </div>
         //     </div>
     )    
-}
+};
 
 export default AdminPage
