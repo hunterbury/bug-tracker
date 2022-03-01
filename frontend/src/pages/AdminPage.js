@@ -1,6 +1,5 @@
 import React from 'react';
 import CreateTicket from '../components/CreateTicket';
-import EditTicket from '../components/EditTicket';
 import TicketList from '../components/TicketList';
 
 const AdminPage = () => {
@@ -79,6 +78,7 @@ const AdminPage = () => {
                 </div>
                 <div id="layoutSidenav_content">
                     <main>
+                        <CreateTicket />
                         <TicketList />
                     </main>
                     <footer class="py-4 bg-light mt-auto">

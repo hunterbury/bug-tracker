@@ -1,4 +1,4 @@
-CREATE DATABASE bugTracker;
+CREATE DATABASE bugtracker;
 
 -- columns: id, description, assigned_by, assigned_to, type, priority, status, project
 
@@ -8,11 +8,11 @@ CREATE TABLE ticket(
 );
 
 -- columns: id, name
-CREATE TABLE project(
-    project_id SERIAL PRIMARY KEY,
-);
+-- CREATE TABLE project(
+--     project_id SERIAL PRIMARY KEY,
+-- );
 
--- columns: id, name, project
-CREATE TABLE user(
-    user_id SERIAL PRIMARY KEY,
-);
+-- -- columns: id, name, project
+-- CREATE TABLE user(
+--     user_id SERIAL PRIMARY KEY,
+-- );
