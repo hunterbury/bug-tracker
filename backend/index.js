@@ -8,6 +8,14 @@ app.use(cors());
 app.use(express.json());
 
 //routes
+// project/tickets/id
+// project/tickets/priority
+// project/tickets/status
+// user/tickets/id
+// user/tickets/status
+// user/tickets/status
+
+
 app.post("/tickets", async(req, res) => {
     try {
         const { description } = req.body;
